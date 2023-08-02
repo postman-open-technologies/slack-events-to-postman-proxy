@@ -1,0 +1,18 @@
+{
+  "name": "postman-webhook-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy for postman webhooks. It routes every request it receives to the webhooks directly",
+  "main": "index.js",
+  "author": "Gbadebo Bello <gbahdeybohbello@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
